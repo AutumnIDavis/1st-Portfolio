@@ -1,0 +1,169 @@
+
+@media (min-width: 1000px) {
+
+  /* Resume */
+
+  p{
+    /* color: white; */
+  }
+
+  a{
+    color: rgb(203, 10, 114);
+  }
+
+  a:visited {
+      color: /* rgb(19, 195, 207) */;
+  }
+
+  ol{
+    text-align: left;
+    font-size: 10px;
+  }
+
+  p{
+    font-size: 20px;
+  }
+
+
+  .name{
+    font-size: 40px;
+    color: pink;
+  }
+
+  .intro{
+    color: white;
+  }
+
+  .contactInfo{
+    color: #bcbcbc;
+    padding: 13px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .SubCat{
+    color: white;
+  }
+
+  .title{
+    color: #ffc0cb;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .descript{
+    color: #bcbcbc;
+    padding: 13px 0px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .highlight{
+    color: grey;
+  }
+
+  .list{
+    color: grey;
+  }
+
+  .ResumeDrawing{
+    display: inline-block;
+  }
+
+  .ResumeDrawing img{
+    display: inline-block;
+    width: 43%;
+    position: fixed;
+    top: 16%;
+    left: 57%;
+  }
+
+  .content{
+    /* // display: inline-flex; */
+  }
+}
+
+
+/*                                  phone                                     */
+
+
+@media (max-width: 999px) {
+  .ResumeDrawing img {
+    display: none;
+  }
+
+
+    /* Resume */
+
+    p{
+      /* color: white; */
+    }
+
+    a{
+      color: rgb(203, 10, 114);
+    }
+
+    a:visited {
+        color: /* rgb(19, 195, 207) */;
+    }
+
+    ol{
+      text-align: left;
+      font-size: 10px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+
+
+    .name{
+      font-size: 40px;
+      color: pink;
+    }
+
+    .intro{
+      color: white;
+    }
+
+    .contactInfo{
+      color: #bcbcbc;
+      padding: 13px 0px;
+      letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .SubCat{
+      color: white;
+    }
+
+    .title{
+      color: #ffc0cb;
+      padding: 20px 0px;
+      letter-spacing: 1px;
+      font-size: 20px;
+      line-height: 22px;
+    }
+
+    .descript{
+      color: #bcbcbc;
+      padding: 13px 0px;
+      letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .highlight{
+      color: grey;
+    }
+
+    .list{
+      color: grey;
+    }
+
+}
